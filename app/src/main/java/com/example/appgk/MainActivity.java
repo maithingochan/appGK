@@ -28,9 +28,10 @@ public class MainActivity extends AppCompatActivity {
         checkSave=(CheckBox) findViewById(R.id.cblogin);
         btn_signIn=(Button) findViewById(R.id.btnSignIn);
         btn_signUp=(Button) findViewById(R.id.btnSignIn_SignUp);
-
+//f
         btn_signIn.setOnClickListener(new View.OnClickListener() {
             @Override
+
             public void onClick(View view) {
 
                 SharedPreferences sharedPreferences = getSharedPreferences(thongtinluu,MODE_PRIVATE);
